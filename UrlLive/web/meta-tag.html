@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="http://www.urllive.in:8084/UrlLive/assets/img/favicon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="http://www.urllive.in:8084/UrlLive/assets/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Meta Tag Generator</title>
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+
+    <!-- Bootstrap core CSS     -->
+    <link href="http://www.urllive.in:8084/UrlLive/assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Animation library for notifications   -->
+    <link href="http://www.urllive.in:8084/UrlLive/assets/css/animate.min.css" rel="stylesheet"/>
+
+    <!--  Paper Dashboard core CSS    -->
+    <link href="http://www.urllive.in:8084/UrlLive/assets/css/paper-dashboard.css" rel="stylesheet"/>
+
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <link href="http://www.urllive.in:8084/UrlLive/assets/css/demo.css" rel="stylesheet" />
+
+    <!--  Fonts and icons     -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="http://www.urllive.in:8084/UrlLive/assets/css/themify-icons.css" rel="stylesheet">
+    <link href="http://www.urllive.in:8084/UrlLive/assets/css/all.css" rel="stylesheet">
+    <link href="http://www.urllive.in:8084/UrlLive/assets/css/all.min.css" rel="stylesheet">
+    <link href="http://www.urllive.in:8084/UrlLive/assets/css/fontawesome.css" rel="stylesheet">
+    <link href="http://www.urllive.in:8084/UrlLive/assets/css/fontawesome.min.css" rel="stylesheet">
+    <link href="http://www.urllive.in:8084/UrlLive/assets/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<!-- start sidebar -->
+	<div class="wrapper">
+		<div class="sidebar" data-background-color="white" data-active-color="danger">
+	    	<div class="sidebar-wrapper">
+	            <div class="logo">
+	                <a href="http://www.urllive.in:8084/UrlLive/dashboard/" class="simple-text">
+	                    <i class="ti-link"></i>&nbsp;<big><b>URL Live</b></big>
+	                </a>
+	            </div>
+	            <ul class="nav">
+                        <li>
+	                    <a href="http://www.urllive.in:8084/UrlLive/dashboard/">
+                                <i class="ti-panel"></i>
+                                <p>Dashboard</p>
+	                    </a>
+	                </li>
+                        <hr>
+	                <li>
+	                    <a href="http://www.urllive.in:8084/UrlLive/url/shorter">
+	                        <i class="fa fa-link"></i>
+	                        <p>URL Shorter</p>
+	                    </a>
+	                </li>
+                        <li>
+	                    <a href="http://www.urllive.in:8084/UrlLive/url/custom">
+	                        <i class="fa fa-pencil"></i>
+	                        <p>Custom URL</p>
+	                    </a>
+	                </li>
+                        <li>
+	                    <a href="http://www.urllive.in:8084/UrlLive/url/clicks/">
+	                        <i class="fa fa-eye"></i>
+	                        <p>Count Clicks</p>
+	                    </a>
+	                </li>
+                        <hr>
+                        <li>
+	                    <a href="http://www.urllive.in:8084/UrlLive/whatsapp/api">
+	                        <i class="fa fa-whatsapp"></i>
+	                        <p>Whatsapp Tool</p>
+	                    </a>
+	                </li>
+                        <li>
+	                    <a href="http://www.urllive.in:8084/UrlLive/email/api">
+	                        <i class="fa fa-envelope"></i>
+	                        <p>E-mail Tool</p>
+	                    </a>
+	                </li>
+                        <li>
+	                    <a href="http://www.urllive.in:8084/UrlLive/facebook/api">
+	                        <i class="fa fa-facebook-f"></i>
+	                        <p>Facebook Tool</p>
+	                    </a>
+	                </li>
+                        <li>
+	                    <a href="http://www.urllive.in:8084/UrlLive/twitter/api">
+	                        <i class="fa fa-twitter"></i>
+	                        <p>Twitter Tool</p>
+	                    </a>
+	                </li>
+                        <li>
+	                    <a href="http://www.urllive.in:8084/UrlLive/linkedin/api">
+	                        <i class="fa fa-linkedin"></i>
+	                        <p>Linkedin Tool</p>
+	                    </a>
+	                </li>
+	            </ul>
+	    	</div>
+	    </div>
+	    <!-- end sidebar -->
+
+	    <!-- start heading -->
+	    <div class="main-panel">
+			<nav class="navbar navbar-default">
+	            <div class="container-fluid">
+	                <div class="navbar-header">
+	                    <button type="button" class="navbar-toggle">
+	                        <span class="sr-only">Toggle navigation</span>
+	                        <span class="icon-bar bar1"></span>
+	                        <span class="icon-bar bar2"></span>
+	                        <span class="icon-bar bar3"></span>
+	                        <span class="icon-bar bar4"></span>
+	                    </button>
+	                    <a class="navbar-brand">Meta Tag Generator</a>
+	                </div>
+	                <div class="collapse navbar-collapse">
+	                    <ul class="nav navbar-nav navbar-right">
+	                        <li class="dropdown">
+	                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        <p><b>S.E.O. Tool</b></p>
+                                        <b class="caret"></b>
+	                            </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="active"><a href="http://www.urllive.in:8084/UrlLive/SEO/meta-tag/">Meta Tag Generator</a></li>
+                                        <li><a href="http://www.urllive.in:8084/UrlLive/SEO/youtube-button/">Youtube Button</a></li>
+                                        <li><a href="http://www.urllive.in:8084/UrlLive/SEO/facebook-share/">Facebook Share Button</a></li>
+                                        <li><a href="http://www.urllive.in:8084/UrlLive/SEO/facebook-like/">Facebook Like Button</a></li>
+                                    </ul>
+	                        </li>
+                                <li class="dropdown">
+	                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        <p><b>Code Editor</b></p>
+                                        <b class="caret"></b>
+	                            </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://www.urllive.in:8084/UrlLive/editor/html/">HTML IDE</a></li>
+                                        <li><a href="http://www.urllive.in:8084/UrlLive/editor/sql/">MYSQL IDE</a></li>
+                                    </ul>
+	                        </li>
+                                <li class="dropdown">
+	                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        <p><b>Other Tools</b></p>
+                                        <b class="caret"></b>
+	                            </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://www.urllive.in:8084/UrlLive/SEO/password-calculator/">Password Calculator</a></li>
+                                    </ul>
+	                        </li>
+	                    </ul>
+	                </div>
+	            </div>
+	        </nav>
+	        <!-- end heading -->
+
+	        <!-- start body -->
+	        <div class="content">
+	            <div class="container-fluid">
+	                <div class="row">
+                            <div class="col-lg-12 col-md-12">
+	                        <div class="card">
+	                            <div class="header">
+                                        <div class="text-right">
+                                            <b class="" style="color:red;">*&nbsp;<i style="color:brown;">Compulsary</i></b>
+                                        </div>
+                                        <h2 class="title"><b>Meta Tag Generator</b></h2>
+                                        <span class="text-primary">Meta tags are snippets of text that describe a page's content; the meta tags don't appear on the page itself, but only in the page's source code.</span>
+	                            </div>
+	                            <div class="content">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-12 col-sm-12">
+                                                <div class="form-group">
+                                                    <label>Website URL<b style="color:tomato;">&nbsp;*</b></label>
+                                                    <input type="url" name="url" id="url" class="form-control border-input" placeholder="Paste Website Page/Index Page URL..." required autocomplete="off" title="Enter valid URL of Website/Page">
+                                                    <span style="cursor:pointer;" class="btn-info badge btn-fill">eg.</span>
+                                                    <span style="cursor:pointer;" class="btn-info badge btn-fill">https://www.example.com/</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-12 col-sm-12">
+                                                <div class="form-group">
+                                                    <label>Description</label>
+                                                    <input type="text" name="description" id="description" class="form-control border-input" placeholder="OPTIONAL" autocomplete="off" maxlength="160">
+                                                    <span style="cursor:pointer;" class="btn-info badge btn-fill">eg.</span>
+                                                    <span style="cursor:pointer;" class="btn-info badge btn-fill">Free tool to design website URL uniquely</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-12 col-sm-12">
+                                                <div class="form-group">
+                                                    <label>Keyword</label>
+                                                    <input type="text" name="keywords" id="keyword" class="form-control border-input" placeholder="OPTIONAL" autocomplete="off" maxlength="500">
+                                                    <span style="cursor:pointer;" class="btn-info badge btn-fill">eg.</span>
+                                                    <span style="cursor:pointer;" class="btn-info badge btn-fill">URL Shorter, Free Tool, Meta Tag Generator, Online Tool</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <h3 class="title"><b>Open Graph Meta Tag</b></h3>
+                                        <span class="text-primary">Open graph meta tags allow you to control what content shows up when a page is shared on Social Media Platform (Facebook, Twitter, Linkedin, Whatsapp, etc.).</span>
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-12 col-sm-12">
+                                                <div class="form-group">
+                                                    <label>Website Title<b style="color:tomato;">&nbsp;*</b></label>
+                                                    <input type="text" name="title" id="title" class="form-control border-input" placeholder="Title of Website" required autocomplete="off">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-12 col-sm-12">
+                                                <div class="form-group">
+                                                    <label>Website Type<b style="color:tomato;">&nbsp;*</b></label>
+                                                    <input type="text" name="type" id="type" class="form-control border-input" placeholder="Movie, Blog, Website, etc." required autocomplete="off" maxlength="106">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-12 col-sm-12">
+                                                <div class="form-group">
+                                                    <label>Website Short Name<b style="color:tomato;">&nbsp;*</b></label>
+                                                    <input type="text" name="short" id="short" class="form-control border-input" placeholder="Short Name of Website" required autocomplete="off">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-12 col-sm-12">
+                                                <div class="form-group">
+                                                    <label>Website Logo URL<b style="color:tomato;">&nbsp;*</b></label>
+                                                    <input type="url" name="logo" id="logo" class="form-control border-input" placeholder="Website Logo" required autocomplete="off">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br><br>
+                                        <div class="row">
+                                            <div class="col-md-12 text-center" id="icon">
+                                                <button onclick="check()" type="button" id="button" class="btn btn-danger btn-fill btn-wd">Generate Meta Tag&nbsp;<i class="fa fa-link"></i></button>
+                                            </div>
+                                        </div>
+                                        <br><br>
+                                        <div class="row" id="preview" style="display:none;">
+                                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                                <div class="form-group">
+                                                    <h5>Basic Meta Tag for Website</h5>
+                                                    <textarea style="cursor:pointer" onclick="copyText1(); demo.showNotificationClipboard('top','right','Meta tag copied');" rows="15" type="text" name="preview1" id="preview1" class="form-control border-input" spellcheck="false"></textarea>
+                                                    <script>
+                                                    function copyText1() {
+                                                      var copyText = document.getElementById("preview1");
+                                                      copyText.select();
+                                                      document.execCommand("Copy");
+                                                      //alert("Copied the text: " + copyText.value);
+                                                    }
+                                                    </script>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                                <div class="form-group">
+                                                    <h5>Advance Meta Tag for Website</h5>
+                                                    <textarea style="cursor:pointer" onclick="copyText2(); demo.showNotificationClipboard('top','right','Advanced meta tag copied.')" rows="15" name="preview2" id="preview2" class="form-control border-input" spellcheck="false"></textarea>
+                                                    <script>
+                                                    function copyText2() {
+                                                      var copyText = document.getElementById("preview2");
+                                                      copyText.select();
+                                                      document.execCommand("Copy");
+                                                      //alert("Copied the text: " + copyText.value);
+                                                    }
+                                                    </script>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <script>
+                                        function check()
+                                        {
+                                            var url = document.getElementById("url").value;
+                                            var description = document.getElementById("description").value;
+                                            var keyword = document.getElementById("keyword").value;
+                                            var title = document.getElementById("title").value;
+                                            var type = document.getElementById("type").value;
+                                            var short  = document.getElementById("short").value;
+                                            var logo = document.getElementById("logo").value;
+                                            document.getElementById("button").style.display = "none";
+                                            document.getElementById("icon").innerHTML = "<img id='img' src='http://www.urllive.in:8084/UrlLive/assets/img/loading.gif'>";
+                                            setTimeout(function (){
+                                                document.getElementById("icon").innerHTML = "<button onclick='check()' type='button' id='button' class='btn btn-danger btn-fill btn-wd'>Generate Meta Tag&nbsp;<i class='fa fa-link'></i></button>";
+                                                document.getElementById("preview").style.display = "block";
+                                                document.getElementById("preview1").innerHTML = 
+                                                        "<!-- // paste this code in head section // -->"+"\n"+
+                                                        "<title>"+title+"</title>"+"\n"+
+                                                        "<meta charset='UTF-8'/>"+"\n"+
+                                                        "<link rel='icon' type='image/png' href='"+logo+"'>"+"\n"+
+                                                        "<meta name='description' content='"+description+"'/>"+"\n"+
+                                                        "<meta name='keywords' content='"+keyword+"'/>"+"\n"+
+                                                        "<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'/>"+"\n"+
+                                                        "<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>"+"\n"+
+                                                        "<meta http-equiv='refresh' content='30'/>"+"\n"+
+                                                        "<meta name='url' content='"+url+"'>"+"\n"+
+                                                        "<meta name='identifier-URL' content='"+url+"'>"+"\n"+
+                                                        "<link rel='canonical' href=''>	<!-- code that defines the main version for duplicate, near-duplicate and similar pages -->"+"\n"+
+                                                        "<meta name='language' content='english'>"+"\n"+
+                                                        "<meta http-equiv='content-language' content='en-us'/>	<!-- language supporter -->"+"\n"+
+                                                        "<meta name='google' content='notranslate'> <!-- translate,notranslate -->"+"\n"+
+                                                        "<meta name='robots' content='index,follow'>"+"\n"+
+                                                        "<link rel='canonical' href=''>	<!-- code that defines the main version for duplicate, near-duplicate and similar pages -->"+"\n"+
+                                                        "<meta name='resource-type' content='"+type+"'>"+"\n"+
+                                                        "\n<!-- // open graph meta tag // -->"+"\n"+
+                                                        "<meta property='og:locale' content='en_US'/> <!-- list of language codes... https://www.science.co.il/language/Locale-codes.php -->"+"\n"+
+                                                        "<meta property='og:locale:alternate' content='en_In'/>"+"\n"+
+                                                        "<meta property='og:title' content='"+title+"'/>"+"\n"+
+                                                        "<meta property='og:site_name' content='"+short+"'/>"+"\n"+
+                                                        "<meta property='og:url' content='"+url+"'/>"+"\n"+
+                                                        "<meta property='og:type' content='"+type+"'/>"+"\n"+
+                                                        "<meta property='og:image' content='"+logo+"'/>"+"\n"+
+                                                        "<meta property='og:image:width' content='400' />"+"\n"+
+                                                        "<meta property='og:image:width' content='300' />"+"\n"+
+                                                        "<meta property='og:image:alt' content='"+title+"' />"+"\n"+
+                                                        "<meta property='og:description' content='"+description+"'/>";
+                                                
+                                                document.getElementById("preview2").innerHTML = 
+                                                        "<!-- // paste this code in head section // -->"+"\n"+
+                                                        "<title>"+title+"</title>"+"\n"+
+                                                        "<meta charset='UTF-8'/>"+"\n"+
+                                                        "<link rel='icon' type='image/png' href='"+logo+"'>"+"\n"+
+                                                        "<meta name='description' content='"+description+"'/>"+"\n"+
+                                                        "<meta name='keywords' content='"+keyword+"'/>"+"\n"+
+                                                        "<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'/>"+"\n"+
+                                                        "<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>"+"\n"+
+                                                        "<meta http-equiv='refresh' content='0'/>"+"\n"+
+                                                        "<meta name='url' content='"+url+"'>"+"\n"+
+                                                        "<meta name='identifier-URL' content='"+url+"'>"+"\n"+
+                                                        "<link rel='canonical' href=''>	<!-- code that defines the main version for duplicate, near-duplicate and similar pages -->"+"\n"+
+                                                        "<meta name='language' content='english'>"+"\n"+
+                                                        "<meta name='dc.language' content='english'>"+"\n"+
+                                                        "<meta http-equiv='content-language' content='en-us'/>	<!-- language supporter -->"+"\n"+
+                                                        "<meta name='google' content='notranslate'> <!-- translate,notranslate -->"+"\n"+
+                                                        "<meta name='robots' content='index,follow'>"+"\n"+
+                                                        "<link rel='canonical' href=''>	<!-- code that defines the main version for duplicate, near-duplicate and similar pages -->"+"\n"+
+                                                        "<meta name='resource-type' content='"+type+"'>"+"\n"+
+                                                        "<link rel='shortcut icon' href='"+logo+"'/>"+"\n"+
+                                                        "<link rel='apple-touch-icon' href='"+logo+"'/>"+"\n"+
+                                                        "<html dir='ltr' lang='en'>"+"\n"+
+                                                        "<meta name='mobile-web-app-capable' content='yes'/>"+"\n"+
+                                                        "<meta name='apple-touch-fullscreen' content='yes' />"+"\n"+
+                                                        "<meta name='theme-color' content='black' />	<!-- set theme color with black in content -->"+"\n"+
+                                                        "<meta name='apple-mobile-web-app-status-bar-style' content='black'>	<!-- set theme color with black in content -->"+"\n"+
+                                                        "<meta name='referrer' content='origin-when-crossorigin' id='meta_referrer'/>"+"\n"+
+                                                        "<meta http-equiv='content-type' content='"+type+"'/>"+"\n"+
+                                                        "<meta name='resource-type' content='"+type+"'>"+"\n"+
+                                                        "<meta name='web_content_type' content='"+keyword+"'>"+"\n"+
+                                                        "<meta name='subject' content='"+description+"'>"+"\n"+
+                                                        "<meta name='dc.keywords' content='"+keyword+"'>"+"\n"+
+                                                        "<meta name='copyright' content='Copyright "+new Date().getFullYear()+" "+url+"'>"+"\n"+
+                                                        "<meta name='googlebot' content='noarchive,nosnippet,noindex,nofollow'>"+"\n"+
+                                                        "<meta name='verify-v1' content='API_ID'>	<!-- tracking id for S.E.O. -->"+"\n"+
+                                                        "<meta name='web_copy_date' content='"+new Date().getDate()+"/"+new Date().getMonth()+"/"+new Date().getFullYear()+"'>	<!-- website launched date -->"+"\n"+
+                                                        "<meta name='expires' content='"+new Date().getDate()+"/"+new Date().getMonth()+"/"+(new Date().getFullYear()+5)+"'>	<!-- website expiry date -->"+"\n"+
+                                                        "<meta name='reply-to' content='example@website.com'"+"\n"+
+                                                        "<meta name='classification' content='internet'>	<!-- plateform to perform (internet,business,...) -->"+"\n"+
+                                                        "<meta name='distribution' content='global'>	<!-- global plateform to client -->"+"\n"+
+                                                        "<meta name='rating' content='safe for kids'>	<!-- rating for excellence (safe for kids, general) -->"+"\n"+
+                                                        "<meta name='doc-type' content='public'>	<!-- security type -->"+"\n"+
+                                                        "<meta name='country' content=''>	<!-- country_name -->"+"\n"+
+                                                        "<meta name='contactCountry' content=''>	<!-- country address/adreess -->"+"\n"+
+                                                        "<meta name='contactName' content=''>	<!-- contact_name -->"+"\n"+
+                                                        "<meta name='contactOrganization' content='"+short+"'>	<!-- organizaion_name -->"+"\n"+
+                                                        "<meta name='contactZipcode' content='@@@@@@'>	<!-- address -->"+"\n"+
+                                                        "<meta name='contactCity' content=''>	<!-- address -->"+"\n"+
+                                                        "<meta name='linkage' content='website_name'>	<!-- linkage/weblink -->"+"\n"+
+                                                        "<meta name='dc.source' content='source_link'>	<!-- source_link -->"+"\n"+
+                                                        "<meta name='dc.relation' content='website_link'>	<!-- webpage_link -->"+"\n"+
+                                                        "<meta name='revised' content='"+new Date()+"'>"+"\n"+
+                                                        "<meta name='abstract' content=''>"+"\n"+
+                                                        "<meta name='topic' content=''>"+"\n"+
+                                                        "<meta name='summary' content=''>"+"\n"+
+                                                        "<meta name='author' content='name, email@hotmail.com'>"+"\n"+
+                                                        "<meta name='designer' content=''>"+"\n"+
+                                                        "<meta name='owner' content=''>"+"\n"+
+                                                        "<meta name='directory' content='submission'>"+"\n"+
+                                                        "<meta name='pagename' content='"+description+"'>"+"\n"+
+                                                        "<meta name='category' content=''>"+"\n"+
+                                                        "<meta name='coverage' content='Worldwide'>"+"\n"+
+                                                        "<meta name='revisit-after' content='7 days'>"+"\n"+
+                                                        "<meta name='subtitle' content=''>"+"\n"+
+                                                        "<meta name='target' content='all'>"+"\n"+
+                                                        "<meta name='HandheldFriendly' content='True'>"+"\n"+
+                                                        "<meta name='MobileOptimized' content='320'>"+"\n"+
+                                                        "<meta name='ResourceLoaderDynamicStyles' content=''>"+"\n"+
+                                                        "<meta name='syndication-source' content='website_url'>"+"\n"+
+                                                        "<meta name='original-source' content=''>"+"\n"+
+                                                        "<meta name='y_key' content='API_KEY'>"+"\n"+
+                                                        "<meta name='pageKey' content='guest-home'>"+"\n"+
+                                                        "<meta http-equiv='Expires' content='0'>"+"\n"+
+                                                        "<meta http-equiv='Pragma' content='no-cache'>"+"\n"+
+                                                        "<meta http-equiv='Cache-Control' content='no-cache'>"+"\n"+
+                                                        "<meta http-equiv='imagetoolbar' content='no'>"+"\n"+
+                                                        "<meta http-equiv='x-dns-prefetch-control' content='off'>"+"\n"+
+                                                        "<meta name='google-analytics' content='API_KEY'>"+"\n"+
+                                                        "<meta name='disqus' content=''>"+"\n"+
+                                                        "<meta name='uservoice' content=''>"+"\n"+
+                                                        "<meta name='mixpanel' content='asdfasdf'>"+"\n"+
+                                                        "<meta name='readability-verification' content='API_KEY'>"+"\n"+
+                                                        "<meta name='google-site-verification' content='API_KEY'>"+"\n"+
+                                                        "<meta name='ICBM' content='PARA_1,PARA_2'>"+"\n"+
+                                                        "<meta name='format-detection' content='telephone=no,email=no'>"+"\n"+
+                                                        "<link href='"+logo+"' rel='apple-touch-startup-image'>"+"\n"+
+                                                        "<meta name='news_keywords' content='"+keyword+"'>"+"\n"+
+                                                        "<meta name='tweetmeme-title' content='"+title+"'>"+"\n"+
+                                                        "<meta name='blogcatalog'>"+"\n"+
+                                                        "<link rel='fluid-icon' type='image/png' href='"+logo+"'>"+"\n"+
+                                                        "\n<!-- // open graph meta tag // -->"+"\n"+
+                                                        "<meta property='og:locale' content='en_US'/> <!-- list of language codes... https://www.science.co.il/language/Locale-codes.php -->"+"\n"+
+                                                        "<meta property='og:locale:alternate' content='en_In'/>"+"\n"+
+                                                        "<meta property='og:title' content='"+title+"'/>"+"\n"+
+                                                        "<meta property='og:site_name' content='"+short+"'/>"+"\n"+
+                                                        "<meta property='og:url' content='"+url+"'/>"+"\n"+
+                                                        "<meta property='og:type' content='"+type+"'/>"+"\n"+
+                                                        "<meta property='og:image' content='"+logo+"'/>"+"\n"+
+                                                        "<meta property='og:image:width' content='400' />"+"\n"+
+                                                        "<meta property='og:image:width' content='300' />"+"\n"+
+                                                        "<meta property='og:image:alt' content='"+title+"' />"+"\n"+
+                                                        "<meta property='og:description' content='"+description+"'/>"+
+                                                        "<!-- <meta property='og:video' content='url//video.mp4'> -->"+"\n"+
+                                                        "<!-- <meta property='og:video:secure_url' content='url//video.mp4'> -->"+"\n"+
+                                                        "<!-- <meta property='og:video:type' content='type of video'/> -->"+"\n"+
+                                                        "<!-- <meta property='og:video:width' content='400'/> -->"+"\n"+
+                                                        "<!-- <meta property='og:video:height' content='300'/> -->"+"\n"+
+                                                        "<!-- <meta property='og:audio' content='url//audio.mp3'> -->"+"\n"+
+                                                        "<!-- <meta property='og:audio:secure_url' content='url//audio.mp3'> -->"+"\n"+
+                                                        "<!-- <meta property='og:audio:type' content='type of audio' /> -->";
+                                                        
+                                            },1000);
+                                        }
+                                        </script>
+                                        <div class="col-md-12 text-center">
+                                            <br><br>
+                                            <big><b>UrlLive.in is a free tool to shorten a URL or reduce a link.<br>Use our URL Shortener to create a shortened link making it easy to remember.</b></big>
+                                        </div>
+                                        <div class="clearfix"></div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	        <!-- end body -->
+
+	        <!-- start footer -->
+	        <footer class="footer">
+	            <div class="container-fluid">
+	                <nav class="pull-left">
+	                    <ul>
+	                        <li>
+	                            <a href="http://www.urllive.in:8084/UrlLive/report-malicious/"><i class="ti-receipt"></i> Report Malicious URL</a>
+	                        </li>
+	                    </ul>
+	                </nav>
+					<div class="copyright pull-right">
+	                    <i class="ti-link"></i> <a href="http://www.urllive.in:8084/UrlLive/dashboard/">urllive.in</a> | &copy; <script>document.write(new Date().getFullYear())</script>
+	                </div>
+	            </div>
+	        </footer>
+	        <!-- end footer -->
+
+	    </div>
+	</div>
+
+</body>
+
+    <!--   Core JS Files   -->
+    <script src="http://www.urllive.in:8084/UrlLive/assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+	<script src="http://www.urllive.in:8084/UrlLive/assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+	<!--  Checkbox, Radio & Switch Plugins -->
+	<script src="http://www.urllive.in:8084/UrlLive/assets/js/bootstrap-checkbox-radio.js"></script>
+
+	<!--  Charts Plugin -->
+	<script src="http://www.urllive.in:8084/UrlLive/assets/js/chartist.min.js"></script>
+
+    <!--  Notifications Plugin    -->
+    <script src="http://www.urllive.in:8084/UrlLive/assets/js/bootstrap-notify.js"></script>
+
+    <!--  Google Maps Plugin    -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+    <!-- Paper Dashboard Core javascript and methods for Demo purpose -->
+	<script src="http://www.urllive.in:8084/UrlLive/assets/js/paper-dashboard.js"></script>
+
+	<!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+	<script src="http://www.urllive.in:8084/UrlLive/assets/js/demo.js"></script>
+        <script src="http://www.urllive.in:8084/UrlLive/assets/js/test.js"></script>
+
+</html>
